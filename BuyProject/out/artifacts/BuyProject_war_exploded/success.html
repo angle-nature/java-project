@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+   <center>
+      <img src="../pic/add_cart_success.jpg"/>
+      <hr>
+      <% 
+         String id = request.getParameter("id");
+      	ItemsDAO itemsDAO = new ItemsDAO();
+      	Items items = itemsDAO.getItemsById(Integer.parseInt(id));
+        String num = request.getParameter("num");
+      %>
+          	您成功购买了<%=num%>件商品名称为<%=items.getName()%>的商品    
+      <br>
+      <br>
+      <br>
+      
+    </center>
+
+</body>
+</html>

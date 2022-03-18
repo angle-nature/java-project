@@ -1,0 +1,2 @@
+你们好，这是一个测试写入数据的文件。
+这是利用FileWrite与 BuffereWrite的例题。

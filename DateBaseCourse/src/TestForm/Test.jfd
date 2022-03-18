@@ -1,0 +1,28 @@
+JFDML JFormDesigner: "7.0.3.0.337" Java: "11.0.9.1" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:72:p, comp radioButton1:::p::p, space :p:84:p, comp radioButton2:::p::p}, seq l {space :p:121:p, comp checkBox1:::p::p}}, space ::150:x}}"
+			"$verticalGroup": "par l {seq t {space ::101:x, comp checkBox1:::p::p, space :p:46:p, par b {comp radioButton1::b:p::p, comp radioButton2::b:p::p}, space :p:78:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "text"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox1"
+				"text": "text"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}

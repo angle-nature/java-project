@@ -1,0 +1,84 @@
+.register{
+    position: absolute;
+    display: block;
+    left: 540px;
+    top: 150px;
+    width: 700px;
+    height: 350px;
+}
+
+.registerForm{
+    /*position: relative;*/
+    display: block;
+    margin-top: 14px;
+    width: 700px;
+    height: 34px;
+}
+
+.inputText{
+    /*position: relative;*/
+    display: block;
+    float: left;
+    right: 0;
+    width: 300px;
+    height: 34px;
+}
+
+.text{
+    /*position: relative;*/
+    display: block;
+    float: left;
+    margin-right: 2px;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: right;
+    font-size: 14px;
+}
+
+#submit{
+    position: relative;
+    display: block;
+    background: orange;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 75px;
+    margin-left: 100px;
+    width: 300px;
+    height: 34px;
+    color: white;
+    cursor: hand;
+}
+
+#submit:hover{
+    background: #FFCC00;
+}
+
+#returnLogin{
+    position: relative;
+    display: block;
+    color: #808080;
+    /*去掉下划线*/
+    text-decoration:none;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 330px;
+}
+
+.success{
+    position: relative;
+    display: block;
+    top: 8px;
+    left: 10px;
+    font-size: 14px;
+    color: green;
+}
+
+.error{
+    position: relative;
+    display: block;
+    top: 8px;
+    left: 10px;
+    font-size: 14px;
+    color: red;
+}

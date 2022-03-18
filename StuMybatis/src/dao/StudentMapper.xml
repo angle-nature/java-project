@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.StudentMapper">
+    <select id="doSelectAll" resultType="pojo.Student">
+        select * from student
+    </select>
+    <select id="doSelectByStuID" parameterType="int" resultType="pojo.Student">
+        select * from student where sID= #{stuID}
+    </select>
+
+    <select id="doSelectByStuMajor" parameterType="String" resultType="pojo.Student">
+        select * from student where sMajor like #{stuMajor}
+    </select>
+
+    <select id="doSelectByStuName" parameterType="String" resultType="pojo.Student">
+        select * from student where sName like #{stuName}
+    </select>
+
+    <select id="doSelectByStuSex" parameterType="int" resultType="pojo.Student">
+        select * from student where sSex = #{stuSex}
+    </select>
+
+    <select id="doSelectByStuAge" parameterType="int" resultType="pojo.Student">
+        select * from student where sAge = #{stuAge}
+    </select>
+
+    <insert id="doInsertStudent" parameterType="pojo.Student">
+        insert into student(sName,sSex,sAge,sMajor) values(#{sName},#{sSex},#{sAge},#{sMajor})
+    </insert>
+
+    <update id="doModifyStudent" parameterType="pojo.Student">
+        update student set sName=#{sName},sSex=#{sSex},sAge=#{sAge},sMajor=#{sMajor} where sID=#{sID}
+    </update>
+
+    <delete id="doDeleteByStuID" parameterType="int">
+        delete from student where sID=#{sID}
+    </delete>
+
+</mapper>

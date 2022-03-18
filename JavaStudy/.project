@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>JavaStudy</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/C009_Database</name>
+			<type>2</type>
+			<location>D:/QQ文件/C009_Database</location>
+		</link>
+		<link>
+			<name>src/C010_NetWork</name>
+			<type>2</type>
+			<location>D:/QQ文件/C010_NetWork</location>
+		</link>
+		<link>
+			<name>src/C011_SwingGui</name>
+			<type>2</type>
+			<location>D:/QQ文件/C011_SwingGui</location>
+		</link>
+		<link>
+			<name>src/fileServer</name>
+			<type>2</type>
+			<location>D:/QQ文件/简易文件下载服务程序/fileServer</location>
+		</link>
+	</linkedResources>
+</projectDescription>

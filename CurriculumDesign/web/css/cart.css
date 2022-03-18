@@ -1,0 +1,225 @@
+.div_head{
+    margin-top: 50px;
+    width: 100%;
+    border-top: 2px solid #808080;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.div_head span{
+    margin-right: 159px;
+}
+
+.div_cartItems{
+    position: relative;
+    width: 80%;
+    /*left: 10%;*/
+    margin-left: 10%;
+    background: white;
+}
+
+.div_cartItem{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    border: grey 1px solid;
+    margin-top: 20px;
+}
+
+.div_title{
+    height: 30px;
+    width: 100%;
+}
+
+.div_title span{
+    height: 100%;
+    position: relative;
+    top: 8px;
+    left: 40px;
+    font-size: 12px;
+}
+
+.div_content{
+    background: #f8f8f8;
+    height: 120px;
+}
+
+.div_check{
+    height: 100%;
+    width: 60px;
+    float: left;
+}
+
+.div_check input{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.div_img{
+    width: 150px;
+    height: 100%;
+    float: left;
+}
+
+.div_img #img_goods{
+    height: 90px;
+    margin-top: 15px;
+}
+
+.div_name{
+    height: 100%;
+    width: 200px;
+    float: left;
+}
+
+.div_name a{
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+    text-decoration:none;
+    color: black;
+}
+
+.div_name a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #ff4400;
+    color: #ff4400;
+}
+
+.div_price{
+    width: 200px;
+    float: left;
+}
+
+.div_price span{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.div_count{
+    width: 200px;
+    float: left;
+}
+
+.div_count button{
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.div_count input{
+    position: relative;
+    text-align: center;
+    width: 40px;
+    height: 30px;
+    margin-left: -5.5px;
+    margin-right: -5.5px;
+    outline: none;
+}
+
+.div_totalPrice{
+    width: 200px;
+    float: left;
+}
+
+.div_totalPrice span{
+    position: relative;
+    top: 15px;
+    color: red;
+    font-size: 20px;
+}
+
+.div_operator a{
+    position: relative;
+    top: 15px;
+    font-size: 15px;
+    text-decoration:none;
+    color: black;
+}
+
+.div_operator a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #ff4400;
+    color: #ff4400;
+}
+
+
+.div_buy{
+    position: fixed;
+    width: 80%;
+    height: 50px;
+    left: 10%;
+    bottom: 0;
+    background: #E5E5E5;
+}
+
+.div_buy #check{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 100%;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.div_buy #a_delete{
+    position: relative;
+    line-height: 50px;
+    font-size: 14px;
+    text-decoration:none;
+    color: black;
+}
+
+.div_buy #a_delete:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #ff4400;
+    color: #ff4400;
+}
+
+.div_buy #span_number{
+    /*display: block;*/
+    /*float: left;*/
+    position: absolute;
+    line-height: 50px;
+    right: 300px;
+    font-size: 14px;
+}
+
+.div_buy #span_number span{
+    color: red;
+    font-size: 20px;
+}
+
+.div_buy #span_total{
+    position: absolute;
+    left: 1000px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+.div_buy #span_total span{
+    color: red;
+    font-size: 20px;
+}
+
+.div_buy #input_buy{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: left;
+    width: 100px;
+    height: 50px;
+    background: #ff4400;
+    border: none;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.div_buy #input_buy:hover{
+    background: #ff6600;
+    cursor: hand;
+}
